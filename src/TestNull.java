@@ -11,6 +11,9 @@ public class TestNull {
     }
     public static void main(String[] args) {
         //相当于将null转为TestNull类型
-        ((TestNull)null).testMethod();
+//        ((TestNull)null).testMethod();
+        String s="/2000/20001";
+        int i=s.lastIndexOf("/");
+        System.out.println(s.substring(0,i));
     }
 }
